@@ -8,7 +8,7 @@ import { Film } from '../list-films/film-model';
   providedIn: 'root'
 })
 export class CheckoutService {
-  public baseUrl: string = 'http://localhost:3001';
+  public baseUrl: string = 'https://coldwing-sm-database.herokuapp.com/';
   public listFilms: Film[] = [];
   public totalPrice: number = 0;
   public listSelectedFilms: Film[] = [];
